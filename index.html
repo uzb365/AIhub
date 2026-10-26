@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Virtual Workspace</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="workspace-container">
+        <!-- Ob-havo va Soat -->
+        <header>
+            <div id="clock">00:00:00</div>
+            <div id="weather">Ob-havo yuklanmoqda...</div>
+        </header>
+
+        <main class="main-content">
+            <!-- AI Qismi -->
+            <section class="ai-box">
+                <h3>AI Ishchi Yordamchi</h3>
+                <textarea id="ai-input" placeholder="AI-dan biror narsa so'rang..."></textarea>
+                <button id="ask-ai-btn">So'rash</button>
+                <div id="ai-response">Javob bu yerda chiqadi...</div>
+            </section>
+
+            <!-- Pomodoro va Fokus -->
+            <section class="focus-box">
+                <h3>Pomodoro Taymeri</h3>
+                <div id="timer">25:00</div>
+                <div class="controls">
+                    <button id="start-timer">Boshlash</button>
+                    <button id="reset-timer">Yangilash</button>
+                </div>
+            </section>
+        </main>
+    </div>
+    <!-- Oddiy va toza skript ulanishi -->
+    <script src="app.js"></script>
+</body>
+</html>
